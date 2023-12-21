@@ -18,7 +18,6 @@ class EventBookingApp(DbConn):
         }
 
     def display_main_menu(self):
-        print("\n\n===================== EVENT BOOKING SYSTEM =====================")
         print("1. Host a New Event")
         print("2. Book Tickets for an Event")
         print("3. View Existing Booking Details")
